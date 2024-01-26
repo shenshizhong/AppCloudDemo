@@ -1,0 +1,100 @@
+{
+  "fields": [
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "bookName",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "author",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "id",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "publishTime",
+      "fieldType": "Date",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "field5",
+      "fieldType": "Float",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "field6",
+      "fieldType": "Byte",
+      "isNeedEncrypt": false,
+      "notNull": false
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "bookName_Index",
+      "indexList": [
+        {
+          "fieldName": "bookName",
+          "sortType": "DESC"
+        }
+      ]
+    },
+    {
+      "indexName": "author_Index",
+      "indexList": [
+        {
+          "fieldName": "author",
+          "sortType": "DESC"
+        }
+      ]
+    }
+  ],
+  "objectTypeName": "objectType1",
+  "permissions": [
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "World"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert"
+      ],
+      "role": "Authenticated"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Creator"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Administrator"
+    }
+  ]
+}
