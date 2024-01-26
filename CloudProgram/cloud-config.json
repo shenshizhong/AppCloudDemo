@@ -1,0 +1,18 @@
+{
+  "appSelected": {
+    "appId": "5765880207853546399",
+    "appName": "端云一体化",
+    "deviceTypes": [
+      {
+        "deviceType": 4
+      }
+    ],
+    "enableSites": "CN",
+    "installationFree": 0,
+    "packageType": 7,
+    "projectId": "388421841221929904",
+    "projectName": "Harmony端云一体化测试",
+    "siteId": "CN"
+  },
+  "teamId": "2850086000365435829"
+}

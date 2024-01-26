@@ -1,0 +1,22 @@
+{
+  "cloudDBZoneName": "cloudDBZone1",
+  "objectTypeName": "objectType1",
+  "objects": [
+    {
+      "bookName": "My Favorite Book",
+      "author": "ssz",
+      "id": 10,
+      "publishTime": 1706169847036,
+      "field5": 10.5,
+      "field6": 10
+    },
+    {
+      "bookName": "string2",
+      "author": "string2",
+      "id": 20,
+      "publishTime": 1706169847036,
+      "field5": 20.5,
+      "field6": 20
+    }
+  ]
+}
